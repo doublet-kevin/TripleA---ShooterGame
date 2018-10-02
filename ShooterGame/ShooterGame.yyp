@@ -1,0 +1,990 @@
+{
+    "id": "8f41b823-f85c-4c3e-b091-daf1ed22a259",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "eb8507d7-c204-42d9-95f2-fae0a8fc5fe5",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "1405f8d8-2aff-4a93-8868-ef1ce0347f2b",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "014844b3-ffd8-4927-abc5-aeba7bec7947",
+            "Value": {
+                "id": "7aeb0cea-e29b-478f-82da-b886fd2607de",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_tile_dark.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "032ffcd3-8f7a-4a11-9929-7cadba4b4029",
+            "Value": {
+                "id": "4e6e6eea-3cb0-44a2-bf13-8ee00f00deb8",
+                "resourcePath": "views\\032ffcd3-8f7a-4a11-9929-7cadba4b4029.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "04d24e5e-5dc4-42f7-8c46-319d3066e25f",
+            "Value": {
+                "id": "f87d34dd-56a9-4c00-ac50-9b7038968eb6",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_splatter2.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "05fe6cd4-2c15-4b9b-8f91-25c358a36030",
+            "Value": {
+                "id": "6d70c524-ad90-4fed-a072-070c5e4283b3",
+                "resourcePath": "views\\05fe6cd4-2c15-4b9b-8f91-25c358a36030.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "078a9131-ad6f-4883-93df-bf588ef4c1b3",
+            "Value": {
+                "id": "e9741564-2e51-4eb6-8688-e4a5b0c5a5b4",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_tileset.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0866944c-9e29-4539-9671-2ca4333c11ea",
+            "Value": {
+                "id": "6c634ffb-336a-4055-a3a0-3bed897ffc40",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_player\\layers\\5410c881-1a9f-482b-8421-0583f073c168\\09a97584-f9e6-47b9-88b2-048adfd4226d.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "08a8640b-1bf6-4a4c-87f2-acd43e50da2a",
+            "Value": {
+                "id": "3b4ff777-38ea-4dab-81f0-2e302215df61",
+                "resourcePath": "objects\\obj_Title\\obj_Title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "161d208d-605f-4fbd-bde4-77a3032651d3",
+            "Value": {
+                "id": "f3b4c7fe-d81a-4dc2-a96e-fde308917371",
+                "resourcePath": "views\\161d208d-605f-4fbd-bde4-77a3032651d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1831d6fc-cd3d-429c-b283-ac3064d5d376",
+            "Value": {
+                "id": "25bd4e85-f213-4dd8-ad52-3cf9fd41cd21",
+                "resourcePath": "views\\1831d6fc-cd3d-429c-b283-ac3064d5d376.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "196ac190-d8e1-4ea3-acaf-bca7ecd34f69",
+            "Value": {
+                "id": "874375fd-74de-40bd-ab1b-ce780cbcf9e5",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\objects\\obj_player\\obj_player.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1a334329-aa53-460b-abaf-b404cc02e8dc",
+            "Value": {
+                "id": "1c87a330-13eb-4c3d-b4e4-af328a93abba",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1af200b3-cf4c-4edf-849d-ecd81ef019e3",
+            "Value": {
+                "id": "965c8523-eae6-496b-ac13-811036e2e34f",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_player\\spr_player.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1b1e76c6-be55-4e61-a387-ffb5cc5adc60",
+            "Value": {
+                "id": "02cb45e4-75ef-44f7-9cf5-301a613d132f",
+                "resourcePath": "views\\1b1e76c6-be55-4e61-a387-ffb5cc5adc60.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b331623-f4b8-479c-bd57-45f6c3ad5ac8",
+            "Value": {
+                "id": "50617f65-2335-4ef1-98d1-28b11dc31d6d",
+                "resourcePath": "objects\\obj_ennemy\\obj_ennemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1c616d46-12b2-4185-92bd-904f3dac6897",
+            "Value": {
+                "id": "e0be8a89-dbce-493e-b6de-59a422a735af",
+                "resourcePath": "views\\1c616d46-12b2-4185-92bd-904f3dac6897.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "225a3a12-6900-483a-90db-7e1e0fd69b3d",
+            "Value": {
+                "id": "5c562dba-dbca-446d-9d3c-e0ea55cfc476",
+                "resourcePath": "sprites\\spr_bgTitle\\spr_bgTitle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22d41158-ced9-4edc-bd9e-9678cf456409",
+            "Value": {
+                "id": "0cac4199-c04f-4854-ba1e-bb6bde49c2f5",
+                "resourcePath": "views\\22d41158-ced9-4edc-bd9e-9678cf456409.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2874cf14-94dc-4d44-ba56-3a7075e56532",
+            "Value": {
+                "id": "22114940-1377-45f8-86f6-6d1ac404178f",
+                "resourcePath": "views\\2874cf14-94dc-4d44-ba56-3a7075e56532.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "29198c62-bbf7-48e6-97e7-9a7aee033a9e",
+            "Value": {
+                "id": "6da78118-1948-4973-a142-c706e9fd0d6f",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_bullet.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "292cb324-69e3-4b28-b6da-b8640764b5f9",
+            "Value": {
+                "id": "715f6958-805d-42d4-a10a-5c954c75b7fe",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_bullet\\layers\\88fb3523-f3ef-4452-ba6a-b3e2f3d2ead9\\80b3e54c-c2f0-4051-8299-2cb4e9fea3c6.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "2a22be3f-5e67-4689-928c-3b05dafdbbf6",
+            "Value": {
+                "id": "cd12749d-166e-43b7-b522-839208e50a43",
+                "resourcePath": "views\\2a22be3f-5e67-4689-928c-3b05dafdbbf6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2cb2960c-81e3-4fd0-880e-37194c540d6f",
+            "Value": {
+                "id": "5e2cda5b-f9c6-43bf-9971-0f304d2e3d65",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\enemy.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "2d897cc1-18a4-49fa-b47d-906ca6155401",
+            "Value": {
+                "id": "7b5daa2e-4157-46ff-8716-8964e744b713",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_top_mid.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "2deb6b77-18a5-4054-a71e-8251dfd65ea5",
+            "Value": {
+                "id": "d00afeb2-f621-4784-bde5-f90367b3484b",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\options\\linux\\options_linux.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "30eca11e-7ba1-4d59-ad68-79df59da66c9",
+            "Value": {
+                "id": "2c82965a-4aa2-49ed-aa89-3ed68ca95650",
+                "resourcePath": "sprites\\spr_ennemy\\spr_ennemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "360db9b0-db94-4edc-9d3f-336ec72a0dd9",
+            "Value": {
+                "id": "3697ea1f-e54d-4c8f-967e-715644352fde",
+                "resourcePath": "views\\360db9b0-db94-4edc-9d3f-336ec72a0dd9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "36e31826-cebc-47bb-bbf7-0a22e6e81e3b",
+            "Value": {
+                "id": "1b9d4ac5-97f9-483d-af67-d3aa0095cf4f",
+                "resourcePath": "views\\36e31826-cebc-47bb-bbf7-0a22e6e81e3b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3774e31c-c75a-45bc-a805-75ea418b10e1",
+            "Value": {
+                "id": "f48f5e0b-5e65-4370-9e74-8d8325265145",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\2874cf14-94dc-4d44-ba56-3a7075e56532.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "37ef61c3-cc81-4bdb-82fc-e5339bb43929",
+            "Value": {
+                "id": "e41c8c27-5978-447c-aefc-4bd9098b14e5",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "398ef63b-e28b-4171-81b4-6dd85bad0de4",
+            "Value": {
+                "id": "17ce871f-30dc-484f-87af-d7ed523d1c17",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment6.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "39a9af7e-94f6-41b4-9c5b-10b1d83cb9dd",
+            "Value": {
+                "id": "6bae7277-67ab-44b8-99e0-517b47b8fa23",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\enemy_flash.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3c88aadf-50bb-460b-9cff-e4ba9d44b510",
+            "Value": {
+                "id": "16d139fc-2c10-4dc0-bcd3-628d00dd1767",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_bullet\\88fb3523-f3ef-4452-ba6a-b3e2f3d2ead9.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4018141b-1ec3-4600-bdcd-4fbc65a0601e",
+            "Value": {
+                "id": "3f7d63b1-e330-4c57-ba1d-7d5a149d0f7f",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4048b7ca-348a-472e-bed5-64c98b44967c",
+            "Value": {
+                "id": "c12fb1fe-e6c9-4bb2-9ebf-85163dac55d1",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\titlescreen.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "40d67142-0629-4818-8758-0fccc0fe32cf",
+            "Value": {
+                "id": "da779844-b498-4a5a-8058-b7ba6604acc0",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\6bc4c44b-7f96-451b-b51d-0490aeb860c9.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "41f21657-4b9a-498a-a1f4-86dbe00a6497",
+            "Value": {
+                "id": "118449ff-4854-4cde-9e48-6c81e2b8d807",
+                "resourcePath": "views\\41f21657-4b9a-498a-a1f4-86dbe00a6497.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "44770a77-ee6d-4e3d-a99a-6e919cddb1df",
+            "Value": {
+                "id": "20565759-0d84-43cf-9436-00a5fabf80a6",
+                "resourcePath": "views\\44770a77-ee6d-4e3d-a99a-6e919cddb1df.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "471e9e75-8060-4f9f-84d6-78b33a1149ec",
+            "Value": {
+                "id": "184967ce-2dfd-4e1a-a868-6e5117c1d4d6",
+                "resourcePath": "views\\471e9e75-8060-4f9f-84d6-78b33a1149ec.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4bf2bd8a-69c1-41fc-ad10-ecee18c7e9ed",
+            "Value": {
+                "id": "ebd26ce4-651a-4c10-ba8a-d021425e2280",
+                "resourcePath": "views\\4bf2bd8a-69c1-41fc-ad10-ecee18c7e9ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c59dcbd-40be-423a-8bb2-afec682c038b",
+            "Value": {
+                "id": "ee2b886b-4ca1-4895-b14a-ed0f2a530a59",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\1c616d46-12b2-4185-92bd-904f3dac6897.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4de9af6a-8d9e-438b-b745-2afefa46c4a3",
+            "Value": {
+                "id": "4e9d3e3c-ed3b-45df-bf38-490421969ee8",
+                "resourcePath": "views\\4de9af6a-8d9e-438b-b745-2afefa46c4a3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5140940b-1185-4e55-8057-5dbe4fcd0253",
+            "Value": {
+                "id": "d7473d1c-dbc8-4c4f-9223-ead5a2f87d7a",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_bottom_right.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "51e3e5d9-3060-4129-a33c-3e0c8cd03f94",
+            "Value": {
+                "id": "0751744e-e55d-4ac7-a512-df123e6ce913",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Sound\\Explosion.wav.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5454afe6-0b92-46b8-b98d-bec9eede7d0f",
+            "Value": {
+                "id": "94f39fe4-0c4c-4028-86e9-e3658c8464c6",
+                "resourcePath": "views\\5454afe6-0b92-46b8-b98d-bec9eede7d0f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "55bcb9cd-a841-4544-ab80-af8536bb2124",
+            "Value": {
+                "id": "4ffa34e1-c2f7-41f7-ad5b-9452e1eb3a4e",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_mid_left.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "560ebdcb-5cb9-4dd4-bb01-57061f19f857",
+            "Value": {
+                "id": "fda30efb-42b4-433a-87e6-c122516c515e",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment2.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5aaab68c-ef28-4bce-a835-9e2c94ded714",
+            "Value": {
+                "id": "01e7289f-4eba-4ceb-8d48-433308c3239c",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\d497155b-9f32-4a5f-ab58-338c90088bd6.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5dadccd5-8910-41f2-88d1-6b95cee67c55",
+            "Value": {
+                "id": "c7d78215-cf56-47a8-81cf-83e021bd9d26",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_bottom_left.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5dd24df5-bc13-48f8-85c7-698820615153",
+            "Value": {
+                "id": "ae52c553-96f8-41a1-b465-2c95549b0d4a",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\36e31826-cebc-47bb-bbf7-0a22e6e81e3b.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5f7015c7-470c-438a-be9d-573d6286f506",
+            "Value": {
+                "id": "68238ec8-d9c7-4d8a-8e66-2102c54ceca5",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_weapon.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "63c41338-478e-421f-90a4-2a15bbe6169e",
+            "Value": {
+                "id": "e3572d43-24bb-4827-a9a8-d821355a895f",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\44770a77-ee6d-4e3d-a99a-6e919cddb1df.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "651445a4-05f3-48f7-879f-4a6434cdaa76",
+            "Value": {
+                "id": "cd0ae114-e865-48ea-b373-3f9299749be0",
+                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a1e3b2a-ccc4-4f3f-9164-2e869da05c1e",
+            "Value": {
+                "id": "093007cb-d77a-4647-8d60-555374958688",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_mid_right.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6bab2efb-de44-406f-ac2f-dacc8f12f7af",
+            "Value": {
+                "id": "e75b172e-78e0-4cac-b669-381add74fcbd",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\76549a84-7caa-4999-bc2e-97d6af628d9b.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6bc4c44b-7f96-451b-b51d-0490aeb860c9",
+            "Value": {
+                "id": "e7f244a0-2b74-416d-9e17-d64f03c233af",
+                "resourcePath": "views\\6bc4c44b-7f96-451b-b51d-0490aeb860c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6be49f37-296e-4fe7-b53a-ad6fe59f2548",
+            "Value": {
+                "id": "470e5e73-a38f-439e-92dc-c90ece49fc55",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\22d41158-ced9-4edc-bd9e-9678cf456409.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6fc9a3fa-dd20-406b-84a0-2e95c5fd1fb9",
+            "Value": {
+                "id": "8a822c38-49b8-460d-b18e-0e13d3675959",
+                "resourcePath": "sounds\\snd_shootRocket\\snd_shootRocket.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7612d35e-6bc1-46cc-9a15-02b1d3493fbd",
+            "Value": {
+                "id": "26bf6fce-d677-4e02-83ed-c2c6fe4b6054",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_bullet\\spr_bullet.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "76549a84-7caa-4999-bc2e-97d6af628d9b",
+            "Value": {
+                "id": "5bafef29-06f5-497a-b150-4bbfb5d98ebd",
+                "resourcePath": "views\\76549a84-7caa-4999-bc2e-97d6af628d9b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7716700e-f0c6-42d7-b68a-3b5b357a6ce0",
+            "Value": {
+                "id": "dcb14a6a-31cb-462c-8052-5bd97514b9ea",
+                "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "7ad5114b-0b8a-498e-b033-adcf7d2a593c",
+            "Value": {
+                "id": "eb538320-1174-4fc6-83c6-4482bbeef47c",
+                "resourcePath": "tilesets\\til_background\\til_background.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "7bdf676f-464b-4e7e-a736-14bb108e57b7",
+            "Value": {
+                "id": "2fd8a6e9-0e84-4c05-9b6b-e6df2e37c58c",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment4.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7d0f0309-6488-465d-a851-e350dbe82342",
+            "Value": {
+                "id": "3f4575ab-316c-4656-a65e-770228df0ffe",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\rooms\\Stage1\\Stage1.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7e9b0c73-06a3-4c23-a72d-f0894de271f8",
+            "Value": {
+                "id": "ff671a06-55dc-4db0-a1db-176040dab0ec",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_tile.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "83e72afa-12c9-4d52-ae9d-189fc5b76765",
+            "Value": {
+                "id": "9d86cbe5-a83f-433e-8910-4c11208b1f6a",
+                "resourcePath": "objects\\obj_score\\obj_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86605dae-bd0c-49f4-90e5-9dabf343a0d0",
+            "Value": {
+                "id": "da1f3bb5-d1d1-4a98-ad60-30aa005d0dff",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\My First Game - Code Tutorial.yyp.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "889b6b16-3209-4e5d-8a1b-09df707ea249",
+            "Value": {
+                "id": "b1cac8fc-c5c7-4c28-962a-a0a9705c986c",
+                "resourcePath": "sprites\\spr_Title\\spr_Title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9076b1f6-d39e-480c-b2bb-6c5540ee7a51",
+            "Value": {
+                "id": "28603770-578b-4854-b8cc-3b4725367958",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\d3122514-1b0b-405a-9916-a4fbaf752dd0.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9394b1c9-c573-4fcf-a276-799a872faab3",
+            "Value": {
+                "id": "dd7e5177-bea7-4549-ba95-e564770b96bb",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_top_right.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "99258980-1b61-407a-823c-e555041334e6",
+            "Value": {
+                "id": "905dd854-c04f-4e80-bba9-9c3f4a7b858c",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_splatter1.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9abf35c6-3bfa-45f4-96ed-c6d1a5f622c0",
+            "Value": {
+                "id": "4b131971-2537-4364-bfb2-bd6d1873ed4a",
+                "resourcePath": "views\\9abf35c6-3bfa-45f4-96ed-c6d1a5f622c0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d76ddfb-9efe-4bce-8717-6cdbdb7f686d",
+            "Value": {
+                "id": "7ee51896-1632-414f-9e03-de8bcbf12fd3",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\objects\\obj_player\\Step_0.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9f18bbda-d864-4362-b03f-c03b9d087cb2",
+            "Value": {
+                "id": "b6f662c8-e930-4528-81dd-20a1a7545686",
+                "resourcePath": "views\\9f18bbda-d864-4362-b03f-c03b9d087cb2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0e21ad4-7a19-48b0-80a3-664fc17aca87",
+            "Value": {
+                "id": "0b8edfed-c739-4efa-b252-06582f79e6f7",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\options\\main\\inherited\\options_main.inherited.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a0e35c06-4b63-401a-bda0-5ab516533882",
+            "Value": {
+                "id": "049d1727-e88d-49b3-b570-b0937939bb84",
+                "resourcePath": "views\\a0e35c06-4b63-401a-bda0-5ab516533882.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1ebe1c2-b85f-4c3b-bfe5-903208dffd7d",
+            "Value": {
+                "id": "8e8ee6e7-9807-429b-81dd-f33d38fe2fea",
+                "resourcePath": "views\\a1ebe1c2-b85f-4c3b-bfe5-903208dffd7d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3f378b9-dc88-4a63-b497-e863754874e6",
+            "Value": {
+                "id": "69126a08-4041-49b9-be66-eed27bace27b",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment3.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a7d7f1c9-5689-40d0-b579-7bf0f0145ec5",
+            "Value": {
+                "id": "c6e9d63d-e769-421f-bf23-5f53e03fde55",
+                "resourcePath": "views\\a7d7f1c9-5689-40d0-b579-7bf0f0145ec5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "f4f352b4-8279-4bf8-9e3b-9dc558d7e1ba",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "addc8dff-ca19-4f1b-95a8-77073c053871",
+            "Value": {
+                "id": "5009c95f-3b52-4626-9862-ad66796d7877",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aeee13e7-e614-4f35-b6e0-118c98348f5e",
+            "Value": {
+                "id": "f003faa0-655f-4224-9469-0b39b398f023",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\sprites\\spr_player\\5410c881-1a9f-482b-8421-0583f073c168.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b0ac1118-6c72-4bf0-85e4-187a5ae3f72a",
+            "Value": {
+                "id": "d64e434e-fc95-4b80-97d6-0d97faef56a6",
+                "resourcePath": "views\\b0ac1118-6c72-4bf0-85e4-187a5ae3f72a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b2af0c4e-a2fa-4e37-b48d-18af27c59373",
+            "Value": {
+                "id": "864fe40a-19c1-404c-94b6-568706ff548b",
+                "resourcePath": "views\\b2af0c4e-a2fa-4e37-b48d-18af27c59373.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b4a2b84f-c28e-4fab-9995-5523960fa8e6",
+            "Value": {
+                "id": "b1a2e6a7-ecb7-45e3-aaf4-68ac5690def2",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_bullet2.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b4ef4a9d-7dd2-40d2-b5b3-7cb74020b543",
+            "Value": {
+                "id": "9dae57c8-5d99-4b10-ba1c-2413a4fa3a06",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\4de9af6a-8d9e-438b-b745-2afefa46c4a3.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b635f04a-239f-4b44-b95f-c14843d29ac6",
+            "Value": {
+                "id": "f7e68aa2-f4e8-4aff-8d11-00d5b0d6bb83",
+                "resourcePath": "rooms\\rm_Stage1\\rm_Stage1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b85691ee-0984-43de-95fd-6118edc7da82",
+            "Value": {
+                "id": "e950a656-c47c-4dcd-81ff-9078b5d2d1a4",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\options\\mac\\options_mac.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b9acb382-4e7e-489e-a5b7-33595afcb6d5",
+            "Value": {
+                "id": "db8e7c07-ce80-4335-ab14-3732ad17f14e",
+                "resourcePath": "views\\b9acb382-4e7e-489e-a5b7-33595afcb6d5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bccf96c2-0453-4792-8c60-348c1eff2844",
+            "Value": {
+                "id": "4cd6ddd2-5aa4-46b5-999a-23080d285182",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\471e9e75-8060-4f9f-84d6-78b33a1149ec.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bfe6ea18-c097-4395-b941-acfcfeb97131",
+            "Value": {
+                "id": "6aa5a6a5-cd10-421e-bdc4-d37b51c41798",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment1.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "c743af59-8743-41c9-b692-dabfbe889ba8",
+            "Value": {
+                "id": "268326b9-3d44-49bb-ab42-2008d77f47e8",
+                "resourcePath": "views\\c743af59-8743-41c9-b692-dabfbe889ba8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c743f754-0b90-4932-a66f-5c22351b7fc4",
+            "Value": {
+                "id": "4f0d5a85-803c-4e1b-8d36-5319f03c6be2",
+                "resourcePath": "views\\c743f754-0b90-4932-a66f-5c22351b7fc4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7925e09-0f99-41e5-b03c-1a76dc7ab9dd",
+            "Value": {
+                "id": "b04cdcb8-4f38-454f-b6a6-1b6245a05a7e",
+                "resourcePath": "views\\c7925e09-0f99-41e5-b03c-1a76dc7ab9dd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca90f4b6-d1ca-4d21-8529-82ea4f46e636",
+            "Value": {
+                "id": "231cc7bb-7636-4836-bf7f-104f5dbb1bb2",
+                "resourcePath": "rooms\\rm_Title\\rm_Title.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "a9b0007f-1687-4834-8092-b07389d51c7c",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce4e5fc0-1753-429a-bf95-78c0b8c5d99e",
+            "Value": {
+                "id": "b60ffc9f-14b3-4810-a9c6-42d7de7a259a",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\2a22be3f-5e67-4689-928c-3b05dafdbbf6.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ce72a004-d912-46f6-9e25-b575c0b4d79d",
+            "Value": {
+                "id": "9c8e4f00-3bf2-4168-950a-4b4652fbcecf",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_bottom_mid.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ce8b10be-f5e3-4dd9-a04b-b5658bc683d7",
+            "Value": {
+                "id": "2b107a18-77a3-4e06-a4be-0b9dcc502ff2",
+                "resourcePath": "views\\ce8b10be-f5e3-4dd9-a04b-b5658bc683d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2626fe0-eb4b-49c4-8711-cd58a20611d0",
+            "Value": {
+                "id": "e4666e7a-85c5-4ffa-a3af-f29ff3d89221",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_splatter3.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d28d3542-db31-46d7-a303-e5728774d98c",
+            "Value": {
+                "id": "e4651783-baac-4800-ad28-961fcd099b56",
+                "resourcePath": "views\\d28d3542-db31-46d7-a303-e5728774d98c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3122514-1b0b-405a-9916-a4fbaf752dd0",
+            "Value": {
+                "id": "a3b1669b-0a43-4428-96e4-a48607c0eb86",
+                "resourcePath": "views\\d3122514-1b0b-405a-9916-a4fbaf752dd0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d33c297f-3108-4fc9-9aac-67b4ec57bc5d",
+            "Value": {
+                "id": "6aa4a76b-a9b4-4711-8709-53620a68fd5e",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_player.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d42e03e0-538c-4f93-93dd-1877e7940c06",
+            "Value": {
+                "id": "c56184b0-6443-498e-b014-69333f157e64",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\9f18bbda-d864-4362-b03f-c03b9d087cb2.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d497155b-9f32-4a5f-ab58-338c90088bd6",
+            "Value": {
+                "id": "8254fd25-837b-47ad-aa1d-ca76942c9a1f",
+                "resourcePath": "views\\d497155b-9f32-4a5f-ab58-338c90088bd6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d549bf2f-786e-4cb8-b24e-227c68c2fa96",
+            "Value": {
+                "id": "40f8a4c5-0a8e-405b-9520-b8dc198e4fdd",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\1b1e76c6-be55-4e61-a387-ffb5cc5adc60.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d758bdf5-0362-45fd-a0b1-1398ec9e59ba",
+            "Value": {
+                "id": "f2f77c11-f90e-4dbc-8b76-2e988e1bb14d",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\bg_top_left.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d990ecc3-c1e9-458c-9955-41a3a92ae62b",
+            "Value": {
+                "id": "f113fd10-89a4-4ba0-9a60-a44c1a295fbe",
+                "resourcePath": "objects\\obj_ennemySpawn\\obj_ennemySpawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dc77371f-8035-4898-852f-09bd4e7e4bc0",
+            "Value": {
+                "id": "2d556070-7232-44ac-8486-75cf56ace77e",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\options\\windows\\options_windows.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e267055a-a9f1-4ecd-8669-98432e09600f",
+            "Value": {
+                "id": "1bceb9a1-37f6-481f-8aff-e6382bedf5f9",
+                "resourcePath": "views\\e267055a-a9f1-4ecd-8669-98432e09600f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e292de8b-2a17-4942-9729-7d83f737f418",
+            "Value": {
+                "id": "73bc6a57-6757-4475-885c-26fb84ec793f",
+                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e5ce227d-2bba-4060-888a-08664662de71",
+            "Value": {
+                "id": "e80989c7-bfcc-40d1-9055-71e6fcaaa9a8",
+                "resourcePath": "views\\e5ce227d-2bba-4060-888a-08664662de71.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e700ccc0-32c2-4e49-881b-52f83203e56b",
+            "Value": {
+                "id": "6e4b4d2d-3300-46cd-84b3-954dd5de3cff",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\tiles2.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e75965fb-490d-4da0-af22-d98f5db1b965",
+            "Value": {
+                "id": "8b9fa8ac-6b30-454a-9584-ba3959213210",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\4bf2bd8a-69c1-41fc-ad10-ecee18c7e9ed.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e8e6dd8d-907d-446b-b98e-31d414f7a9d5",
+            "Value": {
+                "id": "3a6c099c-a36f-4f25-a8c3-89edb91933f4",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\TutorialResources\\Images\\spr_enemy_fragment5.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f0cf4174-79c2-4b6b-b06b-0e30c6c6d205",
+            "Value": {
+                "id": "b4b7708e-d740-4c0a-88ef-86cd93cc722e",
+                "resourcePath": "views\\f0cf4174-79c2-4b6b-b06b-0e30c6c6d205.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f14212c1-6f07-49f3-bc52-15c4d472b816",
+            "Value": {
+                "id": "2a1ea550-7a4a-45de-8539-09a6779c669b",
+                "resourcePath": "sprites\\spr_bg\\spr_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1f489e5-7145-4355-8455-8a7d1168fad5",
+            "Value": {
+                "id": "7625325a-e939-4ed8-9c57-d49ac15c2087",
+                "resourcePath": "datafiles_yy\\My First Game - Code Tutorial\\views\\a1ebe1c2-b85f-4c3b-bfe5-903208dffd7d.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "994e8302-35f7-4174-9554-9535ee8fab9b",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8687bdd-f47d-42f5-a52e-a317b7ea0ff5",
+            "Value": {
+                "id": "ebccfce7-9a18-4dd2-8832-41e0333fc070",
+                "resourcePath": "views\\f8687bdd-f47d-42f5-a52e-a317b7ea0ff5.yy",
+                "resourceType": "GMFolder"
+            }
+        }
+    ],
+    "script_order": [
+        
+    ],
+    "tutorial": "com.YoYoGames.MyFirstGameCode"
+}
