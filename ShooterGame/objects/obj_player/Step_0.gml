@@ -16,5 +16,8 @@ if (mouse_check_button(mb_left) && (cooldown < 1))
 	audio_play_sound(snd_shootRocket, 0, 0);
 	cooldown = 6;
 }
-
+if (x<20) x=20;
+if (x>2048) x=2048;
+if (y<20) y=20;
+if (y>748) y=748;
 cooldown = cooldown - 1;
